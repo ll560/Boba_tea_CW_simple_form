@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<hmtl lang= "en-us">
+  <head> <!--Could you explain what each style part changes/does?-->
+    <style> table, th, td {border: 3px solid rgb(58, 19, 19); font-family: Arial
+}
+
+  table { 
+  border-collapse: solid;
+  width: 100%;
+} 
+  td, th { 
+  border: 1px collapse #dddddd;
+  text-align: center;
+  padding: 10px;
+}
+
+  tr:nth-child(even) {
+  background-color: #a192a0;
+}
+
+        </style> <!---Are there certain areas where you can add comments?-->
+       
+       <body style="background-color:rgb(233, 250, 252);"></body>
+
+        <title>Boba Order</title>
+    </head>
+<body> 
+  <nav>
+      <a href="https://www.starbucks.com">Cafe</a> |
+      <a href="https://www.eater.com/21551108/boba-milk-bubble-tea-explained-how-to-order">Boba Expalained</a>
+  </nav>
+
+    <h1 style="font-size:300%;" style="text-align: left;" style="font-family:verdana;" 
+        title="Boba Order"> &#9731;Table with Boba Order &#9731;</h1> <!---Is this the correct way to write for style?-->
+     <!--How do I center the title?-->
+
+    <table>
+        <tr> 
+            <th style="background-color:tomato;">Drink Name</th>
+            <th style="background-color:rgb(255, 243, 71);"> Size</th>
+            <th style="background-color:rgb(123, 255, 71);">Ice Level</th>
+            <th style="background-color:rgb(151, 71, 255);"> Sugar Level</th>
+            <th style="background-color:rgb(255, 71, 86);">Topping</th>
+            
+    </tr>
+    <tr>    
+            <td>Green Tea</td>
+            <td>L</td>
+            <td>50%</td>
+            <td>50%</td>
+            <td>Lychee Jelly</td>
+    </tr>
+    <tr>    
+        <td>Chia</td>
+        <td>M</td>
+        <td>25%</td>
+        <td>50%</td>
+        <td>Lychee Jelly</td>
+</tr>
+<tr>    
+    <td>Coconut</td>
+    <td>S</td>
+    <td>0%</td>
+    <td>100%</td>
+    <td>Tapioca Jelly</td>
+</tr>
+<tr>    
+    <td>Supermelon</td>
+    <td>L</td>
+    <td>50%</td>
+    <td>50%</td>
+    <td>Mango Jelly</td>
+</tr>
+<tr>    
+    <td>Vanilla</td>
+    <td>S</td>
+    <td>50%</td>
+    <td>50%</td>
+    <td>Mixed fruit Jelly</td>
+</tr>
+<tr>    
+    <td>Honey Milk Tea</td>
+    <td>S</td>
+    <td>10%</td>
+    <td>100%</td>
+    <td>Coffee Jelly</td>
+</tr>
+
+
+</table>
+<br>
+<form action="https://www.w3schools.com/action_page.php"> 
+    <fieldset>
+        <legend>Add a drink</legend>
+    <div> 
+        <label for="drink">Drink</label>
+        <input type="text" id="large" name="drink">
+    </div>
+    <div>
+        <p>Size</p>
+        <input type="radio" id="large" name="size" value="Large">
+        <label for="large">Large</label>
+        <input type="radio" id="medium" name="size" value="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" id="small" name="size" value="small">
+        <label for="small">Small</label>
+
+    </div>
+    <br>
+    <div>
+        <label for="Ice Level">Ice Level</label>
+        <select name="ice" id="ice">
+            <option value="100>">100%</option>
+            <option value="75">75%</option>
+            <option value="50">50%</option>
+            <option value="25">25%</option>
+            <option value="0">0</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="sugar"> Sugar</label>
+        <select name="sugar" id="sugar">
+            <option value="100">100%</option>
+            <option value="75">75%</option>
+        </select>
+    </div>
+    <br>
+    <div> 
+        <label for="Topping">Topping</label>
+        <input type="checkbox" id="lychee" name=toppings >
+    </div>
+    </fieldset>
+</form>
+
+
+
+</body>
+
+</hmtl>
